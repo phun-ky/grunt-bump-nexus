@@ -13,11 +13,15 @@ And happy coding!
 
 ### Deployment
 
+> I recommend you to use [git flow](http://nvie.com/posts/a-successful-git-branching-model/). This will do the tagging for you, and you can separate features in branches.
+
 Run
 
-    grunt build-patch
+    grunt build-<release>
 
-This action will update the bump the `package.json` version, update the changelog and rebuild the readme.
+Where `release` could be one of: `major`, `minor`, `patch`, `prerelease`.
+
+This action will update the bump the specified `package.json` version, update the changelog and rebuild the readme.
 
 Then
 
