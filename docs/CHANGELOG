@@ -1,0 +1,60 @@
+af45bf4:
+  date: 2014-09-22
+  changes:
+    - "Merge branch 'master' into develop"
+e5ec010:
+  date: 2014-09-22
+  changes:
+    - "Removed auto tag from grunt-bump"
+d48241d:
+  date: 2014-09-22
+  changes:
+    - "Fixed author in bower.json"
+2d13a20:
+  date: 2014-09-22
+  changes:
+    - "Fixed bumping of versions and out of sync banners in built files"
+2657740:
+  date: 2014-09-19
+  changes:
+    - "Updated readme"
+1bf4491:
+  date: 2014-09-19
+  changes:
+    - "Updated api documentation"
+58cccd3:
+  date: 2014-09-19
+  changes:
+    - "Converted this module into a grunt driven module, updated cookie-handler, updated test fixture, updated readme"
+1528f75:
+  date: 2014-04-02
+  changes:
+    - "Fixed bug where path was not set"
+b22ee22:
+  date: 2014-03-26
+  changes:
+    - "Updated readme"
+f6d5194:
+  date: 2014-03-20
+  changes:
+    - "Bumped version"
+9929a8f:
+  date: 2014-03-20
+  changes:
+    - "Optimized the module"
+d4d1d31:
+  date: 2014-02-19
+  changes:
+    - "Moved check for value length"
+bddae93:
+  date: 2014-02-17
+  changes:
+    - "Removed domain in options when using the handler on localhost"
+be5f5f5:
+  date: 2014-02-13
+  changes:
+    - "Made a module"
+31d82e6:
+  date: 2014-02-13
+  changes:
+    - "initial commit"
