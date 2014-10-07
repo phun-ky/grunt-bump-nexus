@@ -1,6 +1,6 @@
 {
   "name": "grunt-bump-nexus",
-  "version": "0.0.2",
+  "version": "0.0.1-1",
   "homepage" : "https://github.com/phun-ky/grunt-bump-nexus",
   "description": "A grunt plugin to bump the deploy version in your nexus deployment file(s)",
   "scripts": {
