@@ -15,20 +15,20 @@ Add something like this in your gruntfile:
 
 ## files *Required*
 
-Type: `Array`
+Type: `Array`  
 
 ## backup
 
-Type: `Boolean`
-Default: `true`
+Type: `Boolean`  
+Default: `true`  
 
 ## project *Required*
 
-Type : `String`
+Type : `String`  
 
 ## version_identifier *Required*
 
-Type : `String`
+Type : `String`  
 
 
 
