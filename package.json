@@ -1,0 +1,51 @@
+{
+  "name": "grunt-bump-nexus",
+  "version": "0.0.2",
+  "homepage" : "https://github.com/phun-ky/grunt-bump-nexus",
+  "description": "A grunt plugin to bump the deploy version in your nexus deployment file(s)",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license:": "GPL v2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:phun-ky/grunt-bump-nexus.git"
+  },
+  "author": {
+    "name": "Alexander Vassbotn Røyne-Helgesen",
+    "email": "alexander@phun-ky.net",
+    "url": "http://phun-ky.net"
+  },
+  "bugs" : {
+    "url" : "https://github.com/phun-ky/grunt-bump-nexus/issues"
+  },
+  "licenses" : {
+    "type" : "GPL",
+    "url" : "https://github.com/phun-ky/grunt-bump-nexus/blob/master/LICENSE"
+    },
+    "dependencies" : {
+      "ini": "^1.3.0",
+      "semver": "^4.0.3"
+      },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-clean": "latest",
+    "grunt-cli": "latest",
+    "grunt-verb": "^0.2.4",
+    "verb-contrib-templates": "^0.1.5",
+    "grunt-shell": "^1.1.1",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-bump": "0.0.15"
+
+  },
+  "keywords" : [
+    "gruntplugin",
+    "grunt",
+    "nexus",
+    "deployment",
+    "bump"
+  ]
+}

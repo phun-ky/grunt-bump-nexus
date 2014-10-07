@@ -1,0 +1,17 @@
+[projectx]
+resource.maven.war.groupId=lalala
+resource.maven.war.artifactId=projectx
+resource.maven.war.version=0.3.33
+resource.maven.war.type=war
+javaXms=64m
+javaXmx=128m
+port_offset=83
+
+[projecty]
+resource.maven.war.groupId=lalala
+resource.maven.war.artifactId=projecty
+resource.maven.war.version=0.2.14
+resource.maven.war.type=war
+javaXms=64m
+javaXmx=128m
+port_offset=82
