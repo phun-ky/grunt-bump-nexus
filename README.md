@@ -1,4 +1,4 @@
-# grunt-bump-nexus - version 0.0.2
+# grunt-bump-nexus - version 0.0.1-2
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Build Status](https://travis-ci.org/phun-ky/grunt-bump-nexus.png)](https://travis-ci.org/phun-ky/grunt-bump-nexus)
 [![Dependency Status](https://gemnasium.com/phun-ky/grunt-bump-nexus.png)](https://gemnasium.com/phun-ky/grunt-bump-nexus)
@@ -35,17 +35,39 @@ Then add this line to your project's `Gruntfile.js`:
 ## API
 Add something like this in your gruntfile:
 
-  bumpnexus: {
-    files : {
-      src: 'src/main/webapp/js/mustache/',
-      dest: 'src/main/webapp/js/src/templates.js',
-      options: {
-        prefix: 'my.templates = ',
-        postfix: ';',
-        verbose: true
+    bumpnexus : {
+      options : {
+        files : [
+          'test/inc/test_before.txt'
+        ],
+        backup : true,
+        project : 'projectx',
+        version_identifier : 'resource.maven.war.version'
       }
-    }
-  }
+    },
+
+## Options
+
+### files *Required*
+
+Type: `Array`
+
+### backup
+
+Type: `Boolean`
+Default: `true`
+
+### project *Required*
+
+Type : `String`
+
+### version_identifier *Required*
+
+Type : `String`
+
+
+
+___________
 
 
 ## Documentation
@@ -105,10 +127,18 @@ If you runt `grunt`, tests will be run automagically when you save a file. If yo
 
 
 ## Release history
-**DATE**       **VERSION**   **CHANGES**          
-* 2014-10-07   fef335c       Added files and tasks
-* 2014-10-07   8e1db9d       Added bak files      
-* 2014-10-07   c8f0702       Initial commit       
+**DATE**       **VERSION**   **CHANGES**                               
+* 2014-10-07   b14306d       Merge branch 'develop'                    
+* 2014-10-07   ceb7494       Updated readme and gruntfile              
+* 2014-10-07   8c65058       Merge branch 'hotfix/0.0.1-1' into develop
+* 2014-10-07   44f6929       Merge branch 'hotfix/0.0.1-1'             
+* 2014-10-07   a0a989a       Fixed bump                                
+* 2014-10-07   0bfea98       Merge branch 'release/0.0.1' into develop 
+* 2014-10-07   f0235f4       Merge branch 'release/0.0.1'              
+* 2014-10-07   3eadb8b       Initial build before first release        
+* 2014-10-07   fef335c       Added files and tasks                     
+* 2014-10-07   8e1db9d       Added bak files                           
+* 2014-10-07   c8f0702       Initial commit                            
 
 ## License and Copyright
 Copyright (c) 2014 Alexander Vassbotn Røyne-Helgesen, contributors.  
