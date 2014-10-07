@@ -20,16 +20,6 @@ module.exports = function(grunt) {
         command: 'changelog.sh'
       }
     },
-    bumpnexus : {
-      options : {
-        files : [
-          'test/inc/test_before.txt'
-        ],
-        backup : true,
-        project : 'projectx',
-        version_identifier : 'resource.maven.war.version'
-      }
-    },
     watch: {
       files: [
         '<%= jshint.files.src %>'
@@ -59,11 +49,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-verb');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-bump');
-
-
-  grunt.loadTasks('tasks');
-
-
+  grunt.loadNpmTasks('grunt-shell');
 
   grunt.registerTask('test', ['jshint', 'nodeunit']);
 
