@@ -7,7 +7,8 @@ module.exports = function(grunt) {
     },
     jshint: {
       files: [
-        "tasks/**/*.js"
+        "tasks/bumpnexus.js",
+        "Gruntfile.js"
       ],
       options: {
         indent : 2,
@@ -22,7 +23,7 @@ module.exports = function(grunt) {
     },
     watch: {
       files: [
-        '<%= jshint.files.src %>'
+        "tasks/bumpnexus.js"
       ],
       tasks: ['jshint', 'verb'],
       options : {
@@ -60,6 +61,16 @@ module.exports = function(grunt) {
   grunt.registerTask('build-patch', function(){
 
     grunt.task.run('bump-only:patch');
+    grunt.task.run('readme');
+
+
+
+
+  });
+
+  grunt.registerTask('build-prerelease', function(){
+
+    grunt.task.run('bump-only:prerelease');
     grunt.task.run('readme');
 
 
